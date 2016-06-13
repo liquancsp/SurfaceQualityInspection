@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AlignRadiusInput</class>
+ <widget class="QDialog" name="AlignRadiusInput">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>298</width>
+    <height>156</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="ok_btn_action">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>120</y>
+     <width>61</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_btn_action">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>61</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="group_box_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Radius</string>
+   </property>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>234</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Align Radius:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="align_radius_text"/>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>align_radius_text</zorder>
+   <zorder>align_radius_text</zorder>
+   <zorder>horizontalSpacer</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

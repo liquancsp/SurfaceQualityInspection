@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>372</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Point Coordinate：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>96</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_reset">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>230</y>
+     <width>96</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>301</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="text">
+     <string>x:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edit_box_x"/>
+   <widget class="QLabel" name="label_3">
+    <property name="text">
+     <string>y:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edit_box_y"/>
+   <widget class="QLabel" name="label_4">
+    <property name="text">
+     <string>z:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edit_box_z"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
